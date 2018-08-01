@@ -8,7 +8,7 @@
     "build": "webpack"
   },
   "author": "erik4github",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.1.1",
     "express": "^4.16.3",
