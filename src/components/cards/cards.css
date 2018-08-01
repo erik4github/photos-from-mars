@@ -1,0 +1,26 @@
+.card {
+    width: 100%;
+    margin-top: 1rem;
+}
+.hidden.card {
+    display: none;
+}
+
+img {
+	opacity: 1;
+	transition: opacity 0.3s;
+}
+
+img.lazy {
+	opacity: 0;
+}
+
+@media (min-width: 768px) {
+    .card {
+        width: 18rem;
+    }
+    .card-img-top {
+        width: 200px;
+        height: 200px;
+    }
+}

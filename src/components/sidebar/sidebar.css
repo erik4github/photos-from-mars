@@ -1,0 +1,25 @@
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.sidebar.open {
+    width: 250px;
+}
+
+.sidebar .close span {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    margin: 10px;
+    font-size: 2rem;
+}

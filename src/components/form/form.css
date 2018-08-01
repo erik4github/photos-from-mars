@@ -1,0 +1,33 @@
+label {
+    padding-right: 10px;
+}
+
+.submit.btn {
+    color: #fff;
+    background-color: #C779D0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.submit.btn:focus,
+.submit.btn:active,
+.submit.btn:hover {
+    color: #fff;
+    background-color: #FEAC5E;
+    border-color: #FEAC5E;
+    box-shadow: none;
+}
+
+.submit.btn:not(:disabled):not(.disabled).active,
+.submit.btn:not(:disabled):not(.disabled):active,
+.show>.submit.btn.dropdown-toggle {
+    background-color: #C779D0;
+    border-color: #C779D0;
+    box-shadow: none;
+}
+/* To align toggler to the right on mobile sizes */
+@media (max-width: 575.98px) { 
+    .form-inline {
+        justify-content: space-between;
+    }
+}

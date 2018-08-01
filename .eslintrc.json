@@ -1,0 +1,24 @@
+{
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "rules": {
+      "semi": 2,
+      "require-jsdoc": "off",
+      "no-console": "warn",
+      "comma-dangle": "off",
+      "max-len": "off",
+      "object-curly-spacing": "off",
+      "react/prop-types": "off",
+      "react/display-name": "off"
+    },
+    "extends": "plugin:react/recommended",
+    "plugins": [
+      "react"
+    ]
+  }
+  
