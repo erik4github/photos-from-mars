@@ -7,7 +7,10 @@
     "start": "babel-node server/server.js",
     "build": "webpack"
   },
-  "author": "erik4github",
+  "author": {
+    "name": "Erik Bleske",
+    "url": "https://github.com/erik4github"
+  },
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.1.1",
